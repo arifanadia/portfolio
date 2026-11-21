@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Arifa Nadia — Creative Technologist & Full-Stack Developer Portfolio
 
-## Getting Started
+A modern, high-performance portfolio engineered with **Next.js 15**, **React 19**, **Three.js**, **GSAP**, and **Tailwind CSS**. Designed with an editorial dark aesthetic, kinetic typography, dynamic 3D interactions, and responsive design.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=for-the-badge&logo=tailwind-css)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock)
+
+---
+
+## ⚡ Highlights
+
+- **Hero & 3D Interactive Stage**: Custom Three.js canvas featuring floating ambient particles and kinetic glassmorphic badges.
+- **Micro-Interactions**: Physics-based magnetic buttons, smooth GSAP `ScrollTrigger` reveal sequences, and dynamic cursor glow.
+- **Curated Works**: Filterable project showcases (Coded Web Apps & CMS / WordPress architectures) with deep-dive modal inspectors.
+- **Visual Design Gallery**: High-resolution brand design, packaging, and commercial asset showcase with an interactive lightbox.
+- **Optimized Performance**: Sub-second load times, 99+ Core Web Vitals targets, and zero layout shift.
+- **Direct Collaboration Suite**: Interactive inquiry form with categorized discipline selection and one-click contact copying.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router, Turbopack)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animation & Motion**: [GSAP](https://greensock.com/gsap/) with ScrollTrigger & `@gsap/react`
+- **3D Graphics**: [Three.js](https://threejs.org/) & [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber)
+- **UI Components**: Radix UI primitives & Lucide Icons
+- **Backend / Database Ready**: Supabase SSR integration
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm, yarn, or pnpm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/arifanadia/portfolio.git
+
+# Navigate into project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# Build optimized production bundle
+npm run build
 
-## Learn More
+# Start production server
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📬 Connect
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Portfolio**: [arifa-nadia.dev](https://github.com/arifanadia)
+- **Email**: [contactarifanadia@gmail.com](mailto:contactarifanadia@gmail.com)
+- **LinkedIn**: [linkedin.com/in/arifa-nadiaa](https://www.linkedin.com/in/arifa-nadiaa/)
+- **Instagram**: [instagram.com/arifanadia5](https://www.instagram.com/arifanadia5/)
+- **GitHub**: [github.com/arifanadia](https://github.com/arifanadia)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.
